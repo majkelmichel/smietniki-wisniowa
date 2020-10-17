@@ -1,1 +1,4 @@
 # smietniki-wisniowa
+
+Twórcy:
+majkel
