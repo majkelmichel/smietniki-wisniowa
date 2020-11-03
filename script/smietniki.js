@@ -8,3 +8,7 @@ class Smietnik {
         this.place = place;
     }
 }
+
+
+// Przykład jak stworzyć śmietnik
+const smietnikParter = new Smietnik('papier', 0, 1);
