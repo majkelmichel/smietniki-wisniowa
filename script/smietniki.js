@@ -1,5 +1,5 @@
 class Smietnik {
-    constructor(type, pietro, place) {
+    constructor(type, pietro=null, place=null) {
         // Typ śmietnika (papier, plastik, bio)
         this.type = type;
         // Piętro na którym śmietnik stoi
@@ -10,6 +10,15 @@ class Smietnik {
 }
 
 
-// Przykład jak stworzyć śmietnik
-const smietnikParter = new Smietnik('papier', 0, 1);
-const smietnikParter2 = new Smietnik('papier', 0, 2);
+const smietnikPapier = new Smietnik('papier');
+const smietnikCombo = new Smietnik(['papier', 'bio', 'plastik']);
+
+const infoDiv = document.getElementById('info');
+const infoType = document.getElementById('smietnikTyp');
+const infoPietro = document.getElementById('smietnikPietro');
+
+const showInfo = (type, pietro) => {
+    infoDiv.style.display = 'flex';
+    infoType.innerText = type;
+    infoPietro.innerText = pietro;
+}
