@@ -1,11 +1,12 @@
 body {
     scroll-behavior: smooth;
     font-size: 16px;
+    background-color: dimgray;
+    background-image: url("../img/EKObg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-body {
-    background-color: dimgray;
-}
 
 h1 {
     font-size: 4em;

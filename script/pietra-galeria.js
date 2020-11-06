@@ -15,7 +15,7 @@ const changeImage = (num) => {
             image.useMap = `#pietro${num}Map`;
             break;
         default:
-            console.error('Wrong argument num for function changeImage');
+            console.error('Wrong parameter num for function changeImage');
             break;
     }
 }
